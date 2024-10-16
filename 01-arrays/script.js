@@ -27,6 +27,9 @@ teachers.push(newLastTeacher);
 // console.log(teachers);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+const newFirstTeacher = "Sarah";
+teachers.unshift(newFirstTeacher);
+// console.log(teachers);
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
